@@ -1,0 +1,142 @@
+%!TEX root = Thesis.tex
+%% ----------------------------------------------------------------
+%% Author: Alex Schlosser
+%%         schlosser@st.cs.uni-saarland.de
+%% ---------------------------------------------------------------- 
+
+% Set up the document
+\documentclass[a4paper, 11pt, twoside]{Thesis}  % Use the "Thesis" style defined in Thesis.cls
+\graphicspath{{./Figures/}}  % Location of the graphics files (set up for graphics to be in PDF format)
+\setchapterpath{./Chapters/}
+\setappendixpath{./Appendices/}
+
+% Include any extra LaTeX packages required
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{verbatimbox}
+\usepackage[usenames]{xcolor}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{framed}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage{framed}
+\usepackage{hyperref}
+\usepackage{todonotes}
+\reversemarginpar
+\presetkeys{todonotes}{inline, size=\tiny, prepend, caption={TODO}}{}
+\usepackage{listings}
+\lstset{language=C,numbers=left}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+
+
+\usepackage{lipsum}
+
+%% Specify thesis parameters here
+%% ----------------------------------------------------------------
+
+
+% Enable git revision parsing (Note: you need to enable shell-excape and pipe support for this feature to work)
+%\revision{\input{|"git rev-parse HEAD | cut -c 1-8"}}
+
+\begin{document}
+\frontmatter	  % Begin Roman style (i, ii, iii, iv...) page numbering
+\title{ \textsf{Resource usage prediction on a cloud using Deep Neural Network} \\
+	07 June 21}
+
+%Complete this section once and reuse for subsequent meeting
+\author{Student's Name: Jaydeep Gami\\\	
+	Student ID: 19868705 \\\
+        Course: Master by Coursework in Computer Science \\
+	$\ddagger$ Department of Computing, Curtin University, Western Australia \\
+	Email: \texttt{j.gami@postgrad.curtin.edu.au} \\
+	* * *\\
+	Supervisor: Sonny Pham\\
+	Co-Supervisor: N/A}
+
+%% Title Page
+%% ----------------------------------------------------------------
+\maketitle
+
+%% Declaration Page required for the Thesis, your institution may give you a different text to place here
+%% ----------------------------------------------------------------
+
+
+%% The Abstract Page
+%% ----------------------------------------------------------------
+\begin{abstract}
+	\input{\chapterpath Abstract}
+\end{abstract}
+
+
+
+%% Table of Contents
+%% ----------------------------------------------------------------
+
+\tableofcontents
+
+
+
+
+\mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
+
+%% Chapters
+%% ----------------------------------------------------------------
+% Include the chapters of the thesis, as separate files (careful of case-sensitivity and spaces in filenames)
+% Capitalized chaptertitles generally look better
+
+\loadchapter{Introduction}{Introduction}
+\loadchapter{literaturereview}{Literature Review}
+\loadchapter{Background}{background}
+\loadchapter{dataexpreiment}{Experimental Dataset}
+\loadchapter{timeseries}{Time-series model}
+\loadchapter{neuralnetwork}{Neuaral Network model}
+\loadchapter{futurework}{Future work}
+\loadchapter{conclusion}{Conclusion}
+
+%% Appendices
+%% ----------------------------------------------------------------
+\appendix
+
+%\input{./Appendices/AppendixA}	% Appendix Title
+
+%\input{./Appendices/AppendixB} % Appendix Title
+
+%\input{./Appendices/AppendixC} % Appendix Title
+
+
+\backmatter
+
+%% Lists of figures and tables
+%% ----------------------------------------------------------------
+\doifnotproposal{
+	\lhead{\emph{List of Figures}}
+	\addtotoc{List of Figures}
+	\listoffigures
+	\clearpage
+
+  	\addtotoc{List of Tables}
+  	\lhead{\emph{List of Tables}}
+	\listoftables
+	\clearpage
+}
+
+%% Bibliography
+%% ----------------------------------------------------------------
+\label{Bibliography}
+\addtotoc{Bibliography}
+\lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"
+\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliography{Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\beginappendix %Begins the appendix
+%Begins the appendix
+\loadchapter{Appendix}{model run with different resources}
+\end{document}  % The End
