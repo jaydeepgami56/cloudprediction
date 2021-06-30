@@ -1,0 +1,48 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of VAR model\relax }}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Recurrent Neural cell\relax }}{10}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Long-Short Term Memory architecture\relax }}{12}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bi-directional Long-Short Term Memory architecture\relax }}{13}{figure.caption.27}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Data Visualization of performance metrics\relax }}{16}{figure.caption.42}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Transmitted throughput}}}{16}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Memory Usage}}}{16}{subfigure.1.2}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Data Visualization of performance metrics \relax }}{17}{figure.caption.45}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CPU usage}}}{17}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Received Throughput}}}{17}{subfigure.2.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CPU workload on day of week and CPU core Visualization \relax }}{17}{figure.caption.48}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{17}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{17}{subfigure.3.2}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Error metircs\relax }}{18}{figure.caption.52}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Decomposition of CPU usage data\relax }}{20}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces AIC score of auto\_arima function\relax }}{21}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Test vs Prediction model on ARIMA(2,0,3)\relax }}{21}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces lag order plot based on AIC score\relax }}{22}{figure.caption.64}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces lag order plot based on AIC score\relax }}{25}{figure.caption.67}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces test vs prediction of data on LSTM Model \relax }}{26}{figure.caption.68}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vanilla LSTM}}}{26}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vanilla LSTM model with lambda layer}}}{26}{subfigure.2.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multilayer of LSTM model}}}{26}{subfigure.2.3}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces loss of the model \relax }}{27}{figure.caption.72}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vanilla LSTM }}}{27}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vanilla LSTM model with lambda layer}}}{27}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multilayer of LSTM model}}}{27}{subfigure.3.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces test vs prediction of data on Bi-LSTM Model \relax }}{28}{figure.caption.77}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {single layer Bi-LSTM}}}{28}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {multilayer Bi-LSTM model}}}{28}{subfigure.4.2}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces loss of the model \relax }}{29}{figure.caption.80}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {single layer Bi-LSTM}}}{29}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {multilayer Bi-LSTM model}}}{29}{subfigure.5.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces test vs prediction of data on All Model \relax }}{38}{figure.caption.90}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vanilla LSTM}}}{38}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vanilla LSTM model with lambda layer}}}{38}{subfigure.1.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Multilayer of LSTM model}}}{38}{subfigure.1.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {single layer Bi-LSTM}}}{38}{subfigure.1.4}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {multilayer Bi-LSTM model}}}{38}{subfigure.1.5}%

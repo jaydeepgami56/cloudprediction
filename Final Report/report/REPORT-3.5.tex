@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{multirow}
+
+\begin{document}
+
+\begin{table}
+  \begin{tabular}{|l|l|l|l|l|}
+    \hline
+\hline
+    \multirow{2}{*}{model} &
+      \multicolumn{2}{c}{train} &
+      \multicolumn{2}{c|}{test} \\ \cline{2-5}
+
+    & RMSE& MAE & RMSE & MSE \\
+    \hline
+    Vanilla LSTM &158.26 & 105.10 & 166.83 & 119.42 \\
+    \hline
+    LSTM with Lambda Layer & 158.55 & 101.81& 167.74 & 114.95 \\
+    \hline
+    Multilayer LSTM & 156.52 & 102.83 & 168.12 & 121.01 \\
+    \hline
+Single Bi-LSTM &154.22&101.35&166.16&1119.59 \\
+\hline
+MultiLayer LSTM & 143.23&93.49 &170.76 & 125.25\\
+\hline\hline
+  \end{tabular}
+\end{table}
+
+\end{document}
